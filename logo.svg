@@ -1,19 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260">
 <defs>
-  <linearGradient id="g" x1="0" x2="1" y1="1" y2="0">
-    <stop offset="0" stop-color="#0a5cff"/><stop offset=".55" stop-color="#14b8ff"/><stop offset="1" stop-color="#6a5cff"/>
-  </linearGradient>
-  <linearGradient id="silver" x1="0" x2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#b9c5d8"/><stop offset="1" stop-color="#fff"/></linearGradient>
+ <radialGradient id="glow" cx="50%" cy="50%" r="65%"><stop offset="0" stop-color="#28d9ff" stop-opacity=".9"/><stop offset=".55" stop-color="#56df91" stop-opacity=".7"/><stop offset="1" stop-color="#9cf36a" stop-opacity="0"/></radialGradient>
+ <linearGradient id="blob" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#72df9b"/><stop offset=".48" stop-color="#28d8d5"/><stop offset="1" stop-color="#79ee72"/></linearGradient>
 </defs>
-<g transform="translate(15 12)">
-  <path d="M18 111 L18 43 L78 43 L108 15 L142 15 L111 48 L111 132 L75 132 L75 66 L51 66 L51 111 Z" fill="url(#silver)"/>
-  <path d="M78 43 L108 15 L142 15 C159 15 174 29 174 46 L174 101 C174 119 160 132 143 132 L111 132 L111 98 L140 98 L140 48 L108 48 Z" fill="url(#g)"/>
-  <g fill="#1688ff" opacity=".9">
-    <rect x="0" y="102" width="7" height="7"/><rect x="7" y="91" width="8" height="8"/>
-    <rect x="0" y="119" width="5" height="5"/><rect x="15" y="110" width="6" height="6"/>
-    <rect x="25" y="122" width="5" height="5"/>
-  </g>
+<ellipse cx="370" cy="135" rx="270" ry="92" fill="url(#glow)"/>
+<g fill="none" stroke="#1b252c" stroke-width="1.25" opacity=".72">
+ <path d="M80 105C65 40 145 18 205 70C255 113 306 82 343 45C392-3 468 27 452 88C438 139 500 166 454 211C413 251 353 218 316 239C262 269 191 240 194 184C197 134 101 154 80 105Z"/>
+ <path d="M91 107C80 52 149 34 202 79C251 121 301 95 339 57C380 17 450 39 438 91C426 137 480 164 445 200C409 237 354 207 313 229C265 254 203 227 204 181C205 135 111 150 91 107Z"/>
+ <path d="M103 109C94 64 154 50 199 88C247 129 296 107 335 69C369 37 434 51 425 95C416 135 463 160 435 190C402 221 355 196 309 218C269 238 215 215 215 178C215 137 121 146 103 109Z"/>
+ <path d="M115 111C108 76 159 66 196 97C243 137 291 120 331 81C359 55 418 63 414 99C409 133 446 157 425 181C395 207 355 185 306 207C273 222 226 205 226 175C225 139 131 142 115 111Z"/>
+ <path d="M127 113C122 87 164 82 193 106C239 145 286 133 327 94C350 73 402 74 403 103C403 132 429 153 415 172C388 193 355 176 302 196C276 206 238 195 238 172C236 141 141 138 127 113Z"/>
+ <path d="M139 115C136 99 169 98 190 115C234 153 280 146 323 108C341 92 386 86 392 107C398 132 414 149 405 163C380 180 355 168 298 186C280 191 250 186 249 169C247 143 151 135 139 115Z"/>
 </g>
-<text x="205" y="88" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="700" letter-spacing="7" fill="#f4f7fb">DIGITIZ<tspan fill="#178cff">NOW</tspan></text>
-<text x="208" y="125" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="5.5" fill="#9caac0">ACCOMPAGNEMENT DIGITAL</text>
+<ellipse cx="370" cy="135" rx="215" ry="70" fill="url(#blob)" opacity=".72"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="800" fill="#050607">
+ <text x="215" y="154" font-size="62" letter-spacing="-3">DigiTiZ.</text>
+ <text x="445" y="111" font-size="45" letter-spacing="-2">NOW</text>
+</g>
 </svg>
